@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harvest Hub — Protect Your Harvest. Connect to the Right Storage.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="logo">HarvestHub</div>
+    <nav class="links" id="navLinks">
+      <button data-nav="home">Home</button>
+      <button data-nav="problem">The Problem</button>
+      <button data-nav="how">How It Works</button>
+      <button data-nav="find">Find Storage</button>
+      <button data-nav="trust">Trust & Verification</button>
+      <button data-nav="get-started">Get Started</button>
+      <button data-nav="guide">Guide & FAQ</button>
+    </nav>
+    <div class="nav-ctas">
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+      <button class="btn btn-secondary" data-nav="get-started" data-list="true">List Your Storage</button>
+      <button class="btn btn-primary" data-nav="find">Find Storage</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main id="app">
+<section class="page" id="page-home">
+  <div class="wrap hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">SMARTER POST-HARVEST STORAGE</div>
+        <h1>Your harvest deserves more than a good harvest.</h1>
+        <p class="lead">Farmers put time, money, energy, and knowledge into producing crops. But the work doesn't stop when the crops leave the farm. Harvest Hub helps you discover storage facilities that match your crop, quantity, location, and needs — all in one place.</p>
+        <div class="hero-ctas">
+          <button class="btn btn-primary" data-nav="find">Find Storage</button>
+          <button class="btn btn-ghost" data-nav="how">How It Works</button>
+        </div>
+        <div class="hero-support">Search. Compare. Connect. Protect.</div>
+      </div>
+      <div class="hero-visual">
+        <div class="journey">Farmer <span class="arrow">→</span> Harvest <span class="arrow">→</span> Storage Facility</div>
+        <div class="info-card"><span>Maize</span><b>500 Bags</b></div>
+        <div class="info-card"><span>Nearby</span><b>Storage Available</b></div>
+        <div class="info-card"><span>Provider</span><b>Verified</b></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2 class="center" style="max-width:640px;">What happens after the harvest?</h2>
+      <p class="center lead" style="max-width:640px;">Harvesting is an important milestone for every farmer. But after the crops are harvested, another challenge begins: where will the harvest be kept?</p>
+      <div class="grid grid-3" id="problemTags" style="margin-top:28px;"></div>
+      <p class="center" style="max-width:640px;margin-top:24px;">The problem isn't always that storage facilities don't exist. Sometimes, the problem is simply finding the right one.</p>
+      <div style="text-align:center;"><button class="btn btn-secondary" data-nav="problem">Explore the Problem</button></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">THE HARVEST HUB SOLUTION</div>
+      <h2>From harvest to storage, without the guesswork.</h2>
+      <p class="lead">Harvest Hub creates a connection between farmers and storage providers: your crop, quantity and location on one side; search, compare and discovery in the middle; a provider's facility, capacity and price on the other.</p>
+      <div class="grid grid-3" style="margin-top:28px;">
+        <div class="card"><h3 style="font-size:1.05rem;">Find Storage</h3><p>Search for facilities based on where you need storage.</p></div>
+        <div class="card"><h3 style="font-size:1.05rem;">Choose Your Crop</h3><p>Specify what you need to store.</p></div>
+        <div class="card"><h3 style="font-size:1.05rem;">Enter Your Quantity</h3><p>Tell the platform approximately how much space you need.</p></div>
+        <div class="card"><h3 style="font-size:1.05rem;">Compare Pricing</h3><p>View available pricing information where provided.</p></div>
+        <div class="card"><h3 style="font-size:1.05rem;">Explore Facilities</h3><p>Review storage facilities before making contact.</p></div>
+        <div class="card"><h3 style="font-size:1.05rem;">Connect With Providers</h3><p>Contact storage providers directly.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <div class="steps" id="homeSteps"></div>
+      <div style="margin-top:26px;"><button class="btn btn-secondary" data-nav="how">See How It Works</button></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid grid-2" style="align-items:center;">
+      <div>
+        <div class="eyebrow">FOR STORAGE PROVIDERS</div>
+        <h2>Have storage space available?</h2>
+        <p>Your facility could be exactly what another farmer is looking for. Create a listing with location, capacity, supported crops, storage type, available space, pricing, availability and contact information.</p>
+        <button class="btn btn-primary" data-nav="get-started" data-list="true">List Your Storage</button>
+      </div>
+      <ul class="plain">
+        <li>Reach farmers who are actively looking for storage.</li>
+        <li>Showcase your available capacity.</li>
+        <li>Provide clear information before receiving enquiries.</li>
+        <li>Make your facility easier to discover.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <h2>Information farmers can understand before they call.</h2>
+      <p class="lead">Choosing where to store a harvest requires confidence. Harvest Hub is designed to make important information visible.</p>
+      <div class="pill-nav" id="trustTags"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap center" style="max-width:640px;">
+      <h2>Don't let finding storage become the next problem.</h2>
+      <p>Your harvest represents your work. Finding a suitable place to keep it shouldn't require endless searching. Start your storage search today.</p>
+      <div class="hero-ctas" style="justify-content:center;">
+        <button class="btn btn-primary" data-nav="find">Find Storage</button>
+        <button class="btn btn-secondary" data-nav="get-started" data-list="true">List Your Storage</button>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ THE PROBLEM ============ -->
+<section class="page" id="page-problem">
+  <div class="wrap" style="padding-top:52px;">
+    <div class="eyebrow">THE POST-HARVEST CHALLENGE</div>
+    <h1 style="font-size:2.1rem;">The work doesn't end when the crop leaves the farm.</h1>
+    <p class="lead">Growing a crop requires planning, labour, resources, patience and time. But after harvesting, farmers still need to protect what they have produced. This is where post-harvest storage becomes important.</p>
+  </div>
+  <section class="section-alt tight">
+    <div class="wrap">
+      <h2 style="font-size:1.4rem;">The storage gap</h2>
+      <p class="lead">Imagine a farmer has successfully harvested 200 bags of maize. The harvest is ready. But then the farmer asks: where can I store it?</p>
+      <div class="card">
+        <p style="margin:0;">The farmer may need to know: which facility is nearby? Does it accept maize? Is there enough space? How much does it cost? Is the facility currently available? What are the storage conditions? Who operates the facility? How can the provider be contacted?</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <h2 style="font-size:1.4rem;">Common challenges</h2>
+      <div class="grid grid-3" id="problemDetail"></div>
+    </div>
+  </section>
+  <section class="section-alt">
+    <div class="wrap center" style="max-width:600px;">
+      <h2 style="font-size:1.4rem;">Storage may exist. But can farmers find it?</h2>
+      <p>The platform is not claiming to create storage facilities. Instead, it creates a digital connection between available storage and farmers looking for it — farmer, search, compare, contact.</p>
+      <button class="btn btn-primary" data-nav="how">See How It Works</button>
+    </div>
+  </section>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="page" id="page-how">
+  <div class="wrap" style="padding-top:52px;">
+    <h1 style="font-size:2.1rem;">From harvest to storage in six steps.</h1>
+    <p class="lead">Search → Review → Connect → Store</p>
+    <div class="grid grid-3" id="howSteps" style="margin-top:20px;"></div>
+    <div style="margin:34px 0;"><button class="btn btn-primary" data-nav="find">Find Storage</button></div>
+  </div>
+</section>
+
+<!-- ============ FIND STORAGE ============ -->
+<section class="page" id="page-find">
+  <div class="wrap" style="padding-top:52px;">
+    <h1 style="font-size:2.1rem;">Find a place for your harvest.</h1>
+    <p class="lead">Search available storage facilities using the information that matters to you.</p>
+    <div class="search-panel">
+      <div class="field-grid">
+        <div><label>What do you want to store?</label>
+          <select id="fCrop"><option value="">Any crop</option><option>Maize</option><option>Rice</option><option>Beans</option><option>Cassava</option><option>Yam</option><option>Vegetables</option><option>Other</option></select>
+        </div>
+        <div><label>Where do you need storage?</label>
+          <input type="text" id="fLocation" placeholder="State, city or area">
+        </div>
+        <div><label>How much space do you need?</label>
+          <input type="text" id="fQuantity" placeholder="e.g. 100 bags">
+        </div>
+        <div><label>When do you need it?</label>
+          <input type="date" id="fDate">
+        </div>
+      </div>
+      <div class="search-actions"><button class="btn btn-primary" id="searchBtn">Find Storage</button></div>
+    </div>
+
+    <div class="results-head">
+      <h2 style="font-size:1.3rem;margin:0;" id="resultsCount">Storage options near you</h2>
+      <div class="filters-row">
+        <span class="filter-chip">Crop</span><span class="filter-chip">Location</span><span class="filter-chip">Price</span><span class="filter-chip">Capacity</span><span class="filter-chip">Availability</span><span class="filter-chip">Verification</span>
+      </div>
+    </div>
+    <div class="grid grid-3" id="resultsGrid" style="margin-bottom:60px;"></div>
+  </div>
+</section>
+
+<!-- ============ STORAGE DETAIL ============ -->
+<section class="page" id="page-detail">
+  <div class="wrap" style="padding-top:52px;padding-bottom:60px;" id="detailContent"></div>
+</section>
+
+<!-- ============ TRUST & VERIFICATION ============ -->
+<section class="page" id="page-trust">
+  <div class="wrap" style="padding-top:52px;">
+    <h1 style="font-size:2.1rem;">Trust starts with better information.</h1>
+    <p class="lead">Finding storage is one thing. Knowing what you're getting is another. Harvest Hub aims to provide clear information that helps farmers ask the right questions before making arrangements.</p>
+  </div>
+  <section class="section-alt tight">
+    <div class="wrap">
+      <h2 style="font-size:1.3rem;">What does verified mean?</h2>
+      <p class="lead">A Verified label can indicate that the provider's submitted information has passed the platform's defined verification process — reviewing provider identity, facility information, location, contact details, and supporting documents where required.</p>
+      <div class="grid grid-3">
+        <div class="card"><span class="verified-badge">VERIFIED</span><p style="margin-top:10px;">Provider information has completed the platform's verification process.</p></div>
+        <div class="card"><span class="avail-badge avail-no">UNDER REVIEW</span><p style="margin-top:10px;">Information has been submitted but verification is still ongoing.</p></div>
+        <div class="card"><span class="tag" style="background:#EEE;color:#6b6b6b;">UNVERIFIED</span><p style="margin-top:10px;">The listing has not completed verification.</p></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <h2 style="font-size:1.3rem;">Transparency</h2>
+      <p class="lead">Every listing should make important information easy to understand.</p>
+      <ul class="plain">
+        <li><b>Who?</b> The storage provider.</li>
+        <li><b>Where?</b> The facility location.</li>
+        <li><b>What?</b> Supported crops.</li>
+        <li><b>How much?</b> Available capacity.</li>
+        <li><b>How much does it cost?</b> Pricing information where supplied.</li>
+        <li><b>Is it available?</b> Current availability status.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="section-alt">
+    <div class="wrap small-note" style="max-width:700px;">
+      <strong>Verification does not mean "never ask questions."</strong> Farmers should still confirm current availability, current pricing, storage conditions, additional charges, terms of storage, and payment arrangements. Harvest Hub helps you discover and connect — always confirm important details before committing your harvest.
+    </div>
+  </section>
+</section>
+
+<!-- ============ GET STARTED / REQUEST ============ -->
+<section class="page" id="page-get-started">
+  <div class="wrap" style="padding-top:52px;">
+    <h1 style="font-size:2.1rem;">Tell us what you need.</h1>
+    <p class="lead">Finding storage starts with a simple request.</p>
+  </div>
+  <div class="wrap grid grid-2" style="align-items:flex-start;">
+    <form class="card" id="requestForm">
+      <h3 style="font-size:1.05rem;">Your information</h3>
+      <div class="field-grid" style="grid-template-columns:1fr 1fr;margin-bottom:16px;">
+        <div><label>Full name</label><input type="text" placeholder="Enter your full name" required></div>
+        <div><label>Phone number</label><input type="text" placeholder="Enter your phone number" required></div>
+      </div>
+      <h3 style="font-size:1.05rem;">Your harvest</h3>
+      <div class="field-grid" style="grid-template-columns:1fr 1fr 1fr;margin-bottom:16px;">
+        <div><label>Crop</label><select><option>Maize</option><option>Rice</option><option>Beans</option><option>Cassava</option><option>Yam</option><option>Vegetables</option><option>Other</option></select></div>
+        <div><label>Quantity</label><input type="text" placeholder="Enter quantity"></div>
+        <div><label>Unit</label><select><option>Bags</option><option>Tonnes</option><option>Kg</option><option>Other</option></select></div>
+      </div>
+      <h3 style="font-size:1.05rem;">Storage need</h3>
+      <div class="field-grid" style="grid-template-columns:1fr 1fr 1fr;margin-bottom:16px;">
+        <div><label>Location</label><input type="text" placeholder="Where do you need storage?"></div>
+        <div><label>Preferred storage date</label><input type="date"></div>
+        <div><label>Expected duration</label><input type="text" placeholder="e.g. 3 months"></div>
+      </div>
+      <label>Additional information</label>
+      <textarea placeholder="e.g. I have 200 bags of maize and need storage for approximately three months."></textarea>
+      <div class="search-actions"><button class="btn btn-primary" type="submit">Find Suitable Storage</button></div>
+    </form>
+    <div>
+      <div class="card" style="margin-bottom:20px;">
+        <div class="eyebrow">FOR STORAGE PROVIDERS</div>
+        <h3 style="font-size:1.05rem;">Do you have storage space available?</h3>
+        <p>Farmers are looking for storage. Make your facility easier to discover. Create a listing with facility name, location, storage type, capacity, supported crops, pricing, availability and contact details.</p>
+        <button class="btn btn-secondary">List Your Storage</button>
+      </div>
+    </div>
+  </div>
+  <div class="wrap receipt" id="receiptBlock" style="display:none;">
+    <h2>Your request has been received.</h2>
+    <p>We've received your storage requirements. You can now review matching storage options and contact providers.</p>
+    <button class="btn btn-primary" data-nav="find">View Storage Options</button>
+  </div>
+</section>
+
+<!-- ============ GUIDE & FAQ ============ -->
+<section class="page" id="page-guide">
+  <div class="wrap" style="padding-top:52px;">
+    <div class="eyebrow">THE HARVEST HUB GUIDE</div>
+    <h1 style="font-size:2.1rem;">A simple guide to finding suitable storage.</h1>
+  </div>
+  <section class="section-alt tight">
+    <div class="wrap grid grid-2">
+      <div>
+        <h3 style="font-size:1.05rem;">Before searching</h3>
+        <ul class="plain">
+          <li><b>Crop type</b> — Know what you need to store.</li>
+          <li><b>Quantity</b> — Estimate how much you have.</li>
+          <li><b>Location</b> — Decide where you want the storage facility to be.</li>
+          <li><b>Duration</b> — Know approximately how long you expect to store your crops.</li>
+          <li><b>Budget</b> — Have an idea of what you can afford.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:1.05rem;">When choosing storage</h3>
+        <ul class="plain">
+          <li><b>Location</b> — How accessible is the facility?</li>
+          <li><b>Capacity</b> — Can it accommodate your quantity?</li>
+          <li><b>Crop compatibility</b> — Does the facility support your crop?</li>
+          <li><b>Price</b> — What does the storage cost?</li>
+          <li><b>Verification</b> — What is the provider's verification status?</li>
+          <li><b>Communication</b> — Can you easily contact the provider?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap" style="max-width:760px;">
+      <h2 style="font-size:1.3rem;">Frequently asked questions</h2>
+      <div id="faqList"></div>
+    </div>
+  </section>
+  <section class="section-alt">
+    <div class="wrap center" style="max-width:560px;">
+      <h2 style="font-size:1.4rem;">Your harvest has already come this far.</h2>
+      <p>Now give it the chance to be properly stored. Find the storage your harvest needs.</p>
+      <div class="hero-ctas" style="justify-content:center;">
+        <button class="btn btn-primary" data-nav="find">Find Storage</button>
+        <button class="btn btn-secondary" data-nav="get-started">Get Started</button>
+      </div>
+    </div>
+  </section>
+</section>
+</main>
+
+<footer>
+  <div class="wrap grid">
+    <div>
+      <div class="logo" style="color:#fff;">HARVEST<span style="color:var(--gold);"> HUB</span></div>
+      <p style="color:#B9AE93;margin-top:10px;max-width:260px;">Protect Your Harvest. Connect to the Right Storage.</p>
+    </div>
+    <div><h4>Explore</h4>
+      <a data-nav="home">Home</a><a data-nav="problem">The Problem</a><a data-nav="how">How It Works</a><a data-nav="find">Find Storage</a><a data-nav="trust">Trust & Verification</a>
+    </div>
+    <div><h4>Get Started</h4>
+      <a data-nav="find">Find Storage</a><a data-nav="get-started">Request Storage</a><a data-nav="get-started">List Your Storage</a>
+    </div>
+    <div><h4>Help</h4>
+      <a data-nav="guide">Guide</a><a data-nav="guide">FAQ</a><a data-nav="get-started">Contact</a>
+    </div>
+  </div>
+  <div class="wrap bottom">
+    <span>© 2026 Harvest Hub</span>
+    <span>Connecting farmers with storage, one harvest at a time.</span>
+  </div>
+</footer>
+
+<script>
+// ---------- Data ----------
+const problems = [
+  ["Pests","Stored crops can be exposed to pests when storage conditions are inadequate."],
+  ["Moisture and mould","Poor storage environments can contribute to spoilage and deterioration."],
+  ["Transportation challenges","A suitable storage facility may exist but be difficult to identify or access."],
+  ["Limited storage capacity","Farmers may need storage for a specific quantity, and a facility that cannot accommodate that amount may not be suitable."],
+  ["Pressure to sell quickly","When farmers cannot easily find suitable storage, they may feel pressure to sell soon after harvest."]
+];
+const homeProblemTags = ["Pest damage","Moisture and mould","Spoilage","Poor storage conditions","Transportation difficulties","Limited available space","Uncertainty about where to store","Pressure to sell quickly"];
+const trustTags = ["Location","Storage capacity","Supported crops","Price information","Availability","Provider information","Verification status"];
+const stepsData = [
+  ["01","Select Your Crop","Start by telling Harvest Hub what you want to store — maize, rice, beans, yam, cassava, vegetables, fruits and more."],
+  ["02","Enter Your Location","Tell us where you need storage. You could search by state, city, town or area."],
+  ["03","Enter Your Quantity","Tell us how much you need to store, such as 50, 100, 500 or 1,000 bags."],
+  ["04","Search","Click Find Storage. Harvest Hub displays available facilities based on the information you've provided."],
+  ["05","Compare","Review available options, including facility, location, crop, capacity, price, availability and verification status."],
+  ["06","Connect","View details, review the information, contact the provider, and confirm the arrangement."]
+];
+const faqData = [
+  ["What is Harvest Hub?","Harvest Hub is a digital platform designed to connect farmers with storage providers."],
+  ["Is Harvest Hub a storage facility?","No. Harvest Hub is a platform for discovering and connecting with storage providers."],
+  ["Can I search for storage by location?","Yes. The platform is designed to allow farmers to search for facilities based on location."],
+  ["What crops can be stored?","Available crops depend on the storage facilities listed on the platform."],
+  ["Can I see storage prices?","Where a provider supplies pricing information, it can be displayed on the facility listing."],
+  ["How do I know whether a provider is verified?","A verification status can be displayed on the provider or facility listing."],
+  ["Does verified mean Harvest Hub guarantees the facility?","No. Verification means the submitted information has passed the platform's defined verification process. Farmers should still inspect or confirm important details before making arrangements."],
+  ["Can storage providers join Harvest Hub?","Yes. Storage providers can submit their facilities for listing."],
+  ["Can I contact a storage provider directly?","Yes. Each eligible storage listing can provide a contact option."],
+  ["What if I cannot find a suitable facility?","You can modify your search by changing your location, quantity, crop, or other search criteria."]
+];
+const facilities = [
+  {name:"Green Valley Storage",location:"Ojodu, Lagos",type:"Warehouse",crops:["Maize","Rice","Beans"],capacity:500,price:"₦1,200 / bag",available:true,verified:"Verified",since:2026},
+  {name:"AgroSafe Storage Centre",location:"Ikeja, Lagos",type:"Agricultural Warehouse",crops:["Maize","Rice"],capacity:1000,price:"₦1,000 / bag",available:true,verified:"Verified",since:2024},
+  {name:"Sunridge Farm Depot",location:"Kaduna",type:"Silo Storage",crops:["Maize","Beans","Cassava"],capacity:800,price:"₦900 / bag",available:false,verified:"Under Review",since:2025},
+  {name:"Coastal Crop Warehouse",location:"Ibadan, Oyo",type:"Warehouse",crops:["Rice","Vegetables"],capacity:350,price:"₦1,450 / bag",available:true,verified:"Verified",since:2023},
+  {name:"Northgate Storage Hub",location:"Kano",type:"Cold Storage",crops:["Vegetables","Yam"],capacity:200,price:"₦2,000 / bag",available:true,verified:"Unverified",since:2026},
+  {name:"Terra Firma Depot",location:"Abeokuta, Ogun",type:"Warehouse",crops:["Maize","Cassava","Yam"],capacity:600,price:"₦1,100 / bag",available:false,verified:"Verified",since:2022},
+];
+
+// ---------- Nav ----------
+function goTo(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  document.querySelectorAll('nav.links button').forEach(b=>b.classList.toggle('active', b.dataset.nav===id));
+  document.getElementById('navLinks').classList.remove('open');
+  window.scrollTo({top:0,behavior:'instant'});
+}
+document.querySelectorAll('[data-nav]').forEach(el=>{
+  el.addEventListener('click',()=>goTo(el.dataset.nav));
+});
+document.getElementById('hamburger').addEventListener('click',()=>{
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+// ---------- Render static repeated content ----------
+document.getElementById('problemTags').innerHTML = homeProblemTags.map(t=>`<div class="card" style="padding:14px 18px;font-weight:600;color:var(--green-900);">${t}</div>`).join('');
+document.getElementById('trustTags').innerHTML = trustTags.map(t=>`<span class="tag">${t}</span>`).join('');
+document.getElementById('homeSteps').innerHTML = stepsData.map(s=>`<div class="step"><div class="num">${s[0]}</div><div style="font-weight:600;">${s[1]}</div></div>`).join('');
+document.getElementById('howSteps').innerHTML = stepsData.map(s=>`<div class="card"><div class="eyebrow">STEP ${s[0]}</div><h3 style="font-size:1.1rem;">${s[1]}</h3><p style="margin:0;">${s[2]}</p></div>`).join('');
+document.getElementById('problemDetail').innerHTML = problems.map((p,i)=>`<div class="card"><div class="eyebrow">${i+1}.</div><h3 style="font-size:1.05rem;">${p[0]}</h3><p style="margin:0;">${p[1]}</p></div>`).join('');
+document.getElementById('faqList').innerHTML = faqData.map((f,i)=>`
+  <div class="faq-item" data-i="${i}">
+    <button class="faq-q">${f[0]}<span class="chevron">+</span></button>
+    <div class="faq-a"><p>${f[1]}</p></div>
+  </div>`).join('');
+document.querySelectorAll('.faq-item').forEach(item=>{
+  item.querySelector('.faq-q').addEventListener('click',()=>item.classList.toggle('open'));
+});
+
+// ---------- Find Storage search ----------
+function renderResults(list){
+  const grid = document.getElementById('resultsGrid');
+  document.getElementById('resultsCount').textContent = list.length ? `${list.length} facilit${list.length===1?'y':'ies'} found` : 'No matches found';
+  if(!list.length){
+    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">
+      <h3 style="font-size:1.2rem;">We couldn't find an exact match.</h3>
+      <p>Try expanding your search location, increasing your acceptable capacity range, searching for another storage type, or checking another date.</p>
+      <button class="btn btn-secondary" id="modifySearch">Modify Search</button>
+    </div>`;
+    document.getElementById('modifySearch').addEventListener('click',()=>{document.getElementById('fLocation').value='';document.getElementById('fCrop').value='';document.getElementById('fQuantity').value='';runSearch();});
+    return;
+  }
+  grid.innerHTML = list.map((f,i)=>`
+    <div class="card storage-card">
+      <div class="top-row">
+        <h3 style="font-size:1.05rem;margin:0;">${f.name}</h3>
+        <span class="verified-badge" style="${f.verified!=='Verified'?'background:#F3E4D6;color:#8a4b2a;border-color:#E4C9AE;':''}">${f.verified.toUpperCase()}</span>
+      </div>
+      <div class="meta">Location: <b>${f.location}</b></div>
+      <div class="meta">Storage Type: <b>${f.type}</b></div>
+      <div class="meta">Suitable for: <b>${f.crops.join(' • ')}</b></div>
+      <div class="meta">Capacity: <b>Up to ${f.capacity} bags</b></div>
+      <div class="meta">Price: <b>${f.price}</b></div>
+      <span class="avail-badge ${f.available?'avail-yes':'avail-no'}">${f.available?'Available':'Unavailable'}</span>
+      <button class="btn btn-primary" style="margin-top:6px;" data-detail="${i}">View Details</button>
+    </div>`).join('');
+  grid.querySelectorAll('[data-detail]').forEach(btn=>{
+    btn.addEventListener('click',()=>showDetail(list[parseInt(btn.dataset.detail)]));
+  });
+}
+function runSearch(){
+  const crop = document.getElementById('fCrop').value;
+  const loc = document.getElementById('fLocation').value.trim().toLowerCase();
+  const qty = parseInt(document.getElementById('fQuantity').value) || 0;
+  const filtered = facilities.filter(f=>{
+    if(crop && !f.crops.includes(crop)) return false;
+    if(loc && !f.location.toLowerCase().includes(loc)) return false;
+    if(qty && f.capacity < qty) return false;
+    return true;
+  });
+  renderResults(filtered);
+}
+document.getElementById('searchBtn').addEventListener('click', runSearch);
+renderResults(facilities);
+
+// ---------- Detail page ----------
+function showDetail(f){
+  document.getElementById('detailContent').innerHTML = `
+    <button class="back-link" id="backToResults">← Back to Storage Results</button>
+    <div class="eyebrow">${f.type.toUpperCase()}</div>
+    <h1 style="font-size:2rem;">${f.name.toUpperCase()}</h1>
+    <p style="color:var(--ink-soft);margin-bottom:4px;">${f.location}</p>
+    <div style="margin-bottom:22px;">
+      <span class="avail-badge ${f.available?'avail-yes':'avail-no'}">${f.available?'Currently Available':'Currently Unavailable'}</span>
+      <span class="verified-badge" style="margin-left:8px;${f.verified!=='Verified'?'background:#F3E4D6;color:#8a4b2a;border-color:#E4C9AE;':''}">${f.verified.toUpperCase()}</span>
+    </div>
+    <div class="grid grid-2">
+      <div>
+        <h3 style="font-size:1.1rem;">Facility overview</h3>
+        <p>${f.name} provides storage space for agricultural produce and offers farmers an option for keeping harvested crops after production.</p>
+        <h3 style="font-size:1.1rem;">Storage information</h3>
+        <ul class="plain">
+          <li><b>Capacity:</b> ${f.capacity} Bags</li>
+          <li><b>Supported Crops:</b> ${f.crops.join(', ')}</li>
+          <li><b>Storage Type:</b> ${f.type}</li>
+          <li><b>Location:</b> ${f.location}</li>
+          <li><b>Pricing:</b> ${f.price}</li>
+          <li><b>Availability:</b> ${f.available?'Available':'Unavailable'}</li>
+        </ul>
+        <h3 style="font-size:1.1rem;">Facility features</h3>
+        <ul class="plain">
+          <li>Suitable for listed crops</li><li>Capacity information provided</li><li>Location information available</li><li>Provider information available</li><li>Contact option available</li>
+        </ul>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:18px;">
+          <h3 style="font-size:1.05rem;">About the provider</h3>
+          <p style="margin-bottom:6px;">${f.name}</p>
+          <p style="margin:0;color:var(--ink-soft);font-size:.9rem;">Provider since: ${f.since}<br>Location: ${f.location}<br>Listed facilities: 1<br>Verification: ${f.verified}</p>
+        </div>
+        <div class="small-note" style="margin-bottom:18px;">
+          <strong>Before you contact:</strong> Is the space still available? Is the listed price current? What storage conditions are provided? Are there additional charges? What is the minimum storage quantity? How long can crops be stored?
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="btn btn-primary">Call Provider</button>
+          <button class="btn btn-secondary" id="sendReqBtn">Send Request</button>
+        </div>
+      </div>
+    </div>`;
+  document.getElementById('backToResults').addEventListener('click',()=>goTo('find'));
+  document.getElementById('sendReqBtn').addEventListener('click',()=>goTo('get-started'));
+  goTo('detail');
+}
+
+// ---------- Request form ----------
+document.getElementById('requestForm').addEventListener('submit',(e)=>{
+  e.preventDefault();
+  document.getElementById('requestForm').style.display='none';
+  document.getElementById('receiptBlock').style.display='block';
+});
+
+goTo('home');
+</script>
+</body>
+</html>
